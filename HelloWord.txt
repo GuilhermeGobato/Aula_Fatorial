@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class HelloWord {
+
+public static void main(String[] args) {
+Scanner fatorial = new Scanner(System.in);
+
+int numero, calc=1;
+System.out.print("Escolha um numero: ");
+numero = fatorial.nextInt();
+
+while (numero >= 13 || numero <= 0){
+numero = fatorial.nextInt();
+}
+
+for (int aux = numero; aux > 0; aux--){
+calc = calc * aux;
+}
+System.out.print("O resultado foi de: " +calc);
+fatorial.close();
+}
+v
