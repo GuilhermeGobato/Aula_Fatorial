@@ -19,4 +19,4 @@ calc = calc * aux;
 System.out.print("O resultado foi de: " +calc);
 fatorial.close();
 }
-v
+}
